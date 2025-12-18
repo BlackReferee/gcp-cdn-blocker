@@ -56,7 +56,7 @@ curl -O 'https://raw.githubusercontent.com/BlackReferee/gcp-cdn-blocker/main/gcp
 chmod +x gcp-cdn-blocker.sh
 
 # 运行交互式向导配置定时更新频率
-./gcp-cdn-blocker.sh install
+./gcp-cdn-blocker.sh
 ```
 
 
