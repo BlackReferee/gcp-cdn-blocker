@@ -41,6 +41,8 @@ sudo yum install whois -y
 ### 2. 下载并安装
 ```bash
 curl -O 'https://raw.githubusercontent.com/BlackReferee/gcp-cdn-blocker/main/gcp-cdn-blocker.sh'
+
+# 赋予脚本权限
 chmod +x gcp-cdn-blocker.sh
 
 # 运行交互式向导配置定时更新频率
