@@ -76,8 +76,9 @@ chmod +x gcp-cdn-blocker.sh
 ## 🔍 验证拦截效果
 运行检测命令后，拦截成功的状态应如下：
 ```bash
-检测目标 1.1.1.1 ... [ 成功拦截 ]
-检测目标 151.101.1.69 ... [ 成功拦截 ]
+检测目标 www.cloudflare.com ... [ 成功拦截 ]
+检测目标 www.akamai.com ... [ 成功拦截 ]
+检测目标 www.fastly.com ... [ 成功拦截 ]
 手动测试：curl -I -m 5 https://www.cloudflare.com，应当返回 Connection timed out
 ```
 
