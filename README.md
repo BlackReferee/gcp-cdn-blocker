@@ -40,6 +40,7 @@ sudo yum install whois -y
 
 ### 2. 下载并安装
 ```bash
+# 下载脚本
 curl -O 'https://raw.githubusercontent.com/BlackReferee/gcp-cdn-blocker/main/gcp-cdn-blocker.sh'
 
 # 赋予脚本权限
