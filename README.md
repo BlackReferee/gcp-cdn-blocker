@@ -41,7 +41,7 @@
 ### 1. 安装基础依赖
 ```bash
 # Ubuntu / Debian
-sudo apt-get update && sudo apt-get install whois -y
+sudo apt-get update && sudo apt-get install whois coreutils -y
 
 # CentOS / RHEL
 sudo yum install whois -y
